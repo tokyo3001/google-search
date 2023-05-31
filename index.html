@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Google Search</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div id="header">
+        <p class="name">Gmail</p>
+        <p class="name">Images</p>
+        <button id="toggle-mode" class="btn" onclick="toggleMode()">
+            <img src="bx-sun.svg" alt="sun" id="sun">
+        </button>
+    </div>
+  <div id="search-container">
+    <img src="https://i0.wp.com/www.dafontfree.io/wp-content/uploads/2021/04/Google-new-logo.png?fit=1500%2C1025&ssl=1" alt="Google Logo" id="logo">
+    <form>
+      <div class="input-icons">
+        <img src="search.png" alt="search" class="icon">
+        <input type="text" id="search-input" placeholder="Search">
+      </div>
+      <div id="autocomplete-results"></div>
+    </form>
+    <div id="search-results"></div>
+    <div class="text-container">
+        <p>Google Search</p>
+         <p>I'm Feeling Lucky</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
